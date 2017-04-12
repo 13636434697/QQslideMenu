@@ -1,0 +1,17 @@
+<!--SlideMenu先写到这个布局里面，并且这里当作SlideMenu的根部局-->
+<com.xu.qqslidemenu.SlideMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/slideMenu"
+    android:background="@mipmap/bg"
+    tools:context=".test.TestActivity" >
+
+    <!--要控制2个布局来回切换-->
+    <!-- 菜单的布局 -->
+    <include layout="@layout/layout_menu"/>
+    <!-- 主界面的布局 -->
+    <include layout="@layout/layout_main"/>
+
+</com.xu.qqslidemenu.SlideMenu>
+
